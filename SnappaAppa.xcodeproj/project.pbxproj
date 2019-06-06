@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B495A90D255B7225A39BD07E /* Pods_SnappaAppa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 408B2E7CA0F33217D6186B30 /* Pods_SnappaAppa.framework */; };
 		DA062E6022A869AF00D4675C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA062E5F22A869AF00D4675C /* AppDelegate.swift */; };
 		DA062E6222A869AF00D4675C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA062E6122A869AF00D4675C /* ViewController.swift */; };
 		DA062E6522A869AF00D4675C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA062E6322A869AF00D4675C /* Main.storyboard */; };
 		DA062E6722A869AF00D4675C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA062E6622A869AF00D4675C /* Assets.xcassets */; };
 		DA062E6A22A869AF00D4675C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA062E6822A869AF00D4675C /* LaunchScreen.storyboard */; };
+		DA062E7222A86A3600D4675C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA062E7122A86A3600D4675C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		408B2E7CA0F33217D6186B30 /* Pods_SnappaAppa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnappaAppa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		959CE561816E03C8F08C30D2 /* Pods-SnappaAppa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappaAppa.debug.xcconfig"; path = "Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa.debug.xcconfig"; sourceTree = "<group>"; };
+		CA70A863427304600DCEB96E /* Pods-SnappaAppa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnappaAppa.release.xcconfig"; path = "Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa.release.xcconfig"; sourceTree = "<group>"; };
 		DA062E5C22A869AF00D4675C /* SnappaAppa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnappaAppa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA062E5F22A869AF00D4675C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA062E6122A869AF00D4675C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		DA062E6622A869AF00D4675C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA062E6922A869AF00D4675C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA062E6B22A869AF00D4675C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA062E7122A86A3600D4675C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B495A90D255B7225A39BD07E /* Pods_SnappaAppa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		932ED522055ECD832B3E0D28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				408B2E7CA0F33217D6186B30 /* Pods_SnappaAppa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5D975DFE79CB6646F7DAC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				959CE561816E03C8F08C30D2 /* Pods-SnappaAppa.debug.xcconfig */,
+				CA70A863427304600DCEB96E /* Pods-SnappaAppa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA062E5322A869AF00D4675C = {
 			isa = PBXGroup;
 			children = (
 				DA062E5E22A869AF00D4675C /* SnappaAppa */,
 				DA062E5D22A869AF00D4675C /* Products */,
+				BD5D975DFE79CB6646F7DAC2 /* Pods */,
+				932ED522055ECD832B3E0D28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +84,7 @@
 				DA062E6122A869AF00D4675C /* ViewController.swift */,
 				DA062E6322A869AF00D4675C /* Main.storyboard */,
 				DA062E6622A869AF00D4675C /* Assets.xcassets */,
+				DA062E7122A86A3600D4675C /* GoogleService-Info.plist */,
 				DA062E6822A869AF00D4675C /* LaunchScreen.storyboard */,
 				DA062E6B22A869AF00D4675C /* Info.plist */,
 			);
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA062E6E22A869AF00D4675C /* Build configuration list for PBXNativeTarget "SnappaAppa" */;
 			buildPhases = (
+				C4E9824592DB356E09EBA05A /* [CP] Check Pods Manifest.lock */,
 				DA062E5822A869AF00D4675C /* Sources */,
 				DA062E5922A869AF00D4675C /* Frameworks */,
 				DA062E5A22A869AF00D4675C /* Resources */,
+				079F59CDDF2461FE104A9D94 /* [CP] Embed Pods Frameworks */,
+				75995C57457E7783EF28C620 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +153,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA062E6A22A869AF00D4675C /* LaunchScreen.storyboard in Resources */,
+				DA062E7222A86A3600D4675C /* GoogleService-Info.plist in Resources */,
 				DA062E6722A869AF00D4675C /* Assets.xcassets in Resources */,
 				DA062E6522A869AF00D4675C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079F59CDDF2461FE104A9D94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75995C57457E7783EF28C620 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnappaAppa/Pods-SnappaAppa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E9824592DB356E09EBA05A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnappaAppa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA062E5822A869AF00D4675C /* Sources */ = {
@@ -150,6 +240,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		DA062E6822A869AF00D4675C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -280,6 +371,7 @@
 		};
 		DA062E6F22A869AF00D4675C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959CE561816E03C8F08C30D2 /* Pods-SnappaAppa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +389,7 @@
 		};
 		DA062E7022A869AF00D4675C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA70A863427304600DCEB96E /* Pods-SnappaAppa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
