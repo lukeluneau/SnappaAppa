@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Application startup
         FirebaseApp.configure()
+        
+        print("configured")
         return true
     }
 
